@@ -1,3 +1,8 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
 .past-projects-wrapper {
     position: relative;
     padding-bottom: 29.30%;
@@ -56,4 +61,46 @@
 }
 .fill-left {
   padding-left: 7.5px;
+}
+
+.funders-header {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.funders-header-left {
+    float: left;
+}
+
+.funders-header-right {
+    text-align: right;
+    float: right;
+}
+
+.funders-header-yellow {
+    background-color: rgb(243, 197, 51);
+}
+
+.funders-header-orange {
+    background-color: rgb(233, 128, 35);
+}
+
+.funders-header-red {
+    background-color: rgb(146, 19, 10);
+}
+
+.funders-header-green {
+    background-color: rgb(0, 140, 20);
+}
+
+.funders-header-blue {
+    background-color: rgb(81, 189, 250);
+}
+
+.funders-header-purple {
+    background-color: rgb(115, 96, 140);
 }
