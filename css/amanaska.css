@@ -17,11 +17,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/past-projects-bw.jpeg");
+    background-image: url("../img/past-projects-bw.jpg");
     background-size: cover;
 }
 .past-projects-block:hover {
-    background-image: url("../img/past-projects.jpeg");
+    background-image: url("../img/past-projects.jpg");
 }
 
 .fund-row-wrapper {
@@ -41,7 +41,7 @@ body {
     background-size: cover;
 }
 .fund-receiver-block:hover {
-    background-image: url("../img/fundraisers.jpeg");
+    background-image: url("../img/fundraisers.jpg");
 }
 .funder-block {
     position: absolute;
