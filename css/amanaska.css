@@ -104,3 +104,46 @@ body {
 .funders-header-purple {
     background-color: rgb(115, 96, 140);
 }
+
+/* Style the carousel with images */
+.carousel {
+    padding-top: 40px;
+}
+
+#carousel-example-generic a img {
+    width:  40px !important;
+    height: 40px !important;
+    min-width: 0px;
+}
+
+.carousel-inner .item img {
+    max-width: 60%;
+}
+
+.carousel-control.left {
+    right: 0%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    top: 80%;
+    background-image: none;
+    width: 25%;
+}
+
+.carousel-caption {
+    position: relative;
+    max-width: 60%;
+    left: 20%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 0px;
+}
+
+.carousel-caption > p {
+    background: #fff !important;
+}
+
+.carousel-button {
+    position: relative !important;
+    vertical-align:bottom !important;
+}
