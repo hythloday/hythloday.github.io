@@ -3,6 +3,14 @@ body {
    font-weight: 300;
 }
 
+ul.discouraged {
+    list-style-image: url("../img/list-element-discouraged.png");
+}
+
+ul.encouraged {
+    list-style-image: url("../img/list-element-encouraged.png");
+}
+
 .past-projects-wrapper {
     position: relative;
     padding-bottom: 29.30%;

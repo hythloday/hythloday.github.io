@@ -6,184 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Amanaska</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Amanaska-->
     <link href="css/amanaska.css" rel="stylesheet">
-
     <!-- Carousel-->
     <link href="css/carousel.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-
     <!-- page contents -->
     <div class="container-fluid">
       <!-- top row -->
       <div class="row">
         <!-- past projects image -->
-        <div class="col-md-8 col-md-offset-2">
-        <h1>Fundraisers</h1>
-          <ul id="tabs" class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#who-we-are" id="who-we-are-tab" role="tab" data-toggle="tab" aria-controls="who-we-are" aria-expanded="true">Who We Are</a></li>
-            <li role="presentation" class=""><a href="#guidelines" role="tab" id="guidelines-tab" data-toggle="tab" aria-controls="guidelines" aria-expanded="false">Guidelines</a></li>
-            <li role="presentation" class=""><a href="#contact" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="contact" aria-expanded="false">Contact</a></li>
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="funders-header funders-header-yellow">For grant seekers</h2>
+          <p style="clear: both">Amanaska works as a consultancy , introducing the right projects to the right potential donors. Our role is to present proposals to the funders whom we think may be interested in helping to make them a reality.</p>
+          <p>We are always on the lookout for great new projects to add to our portfolio but please note before getting in touch that we are not ourselves a grant giving body, we do not have any funds to give away.</p>
+          <h3 class="funders-header funders-header-orange funders-header-right">General guidelines</h3>
+          <p style="clear: both">All applications must be <strong>project based</strong> – we will not be able to help with general fundraising appeals or requests for contributions towards the simple continuation of existing services.</p>
+          <p>Please note that due to our client base and existing commitments we are at present <strong>unable to respond to approaches from any of the following</strong>:</p>
+          <ul class="discouraged">
+            <li>private individuals</li>
+            <li>Any organisation without the relevant acreditation to demonstate not for profit status as governed by the relevant jurisdictions in whichever country it is based.</li>
+            <li>Any organisation with fewer than 2 years audited accounts and a proven track record in successful program implementation.</li>
+            <li>political pressure groups, advocacy groups</li>
+            <li>religious organisations</li>
+            <li>animal welfare organisations or medical research bodies</li>
           </ul>
-          <div id="tab-content" class="tab-content">
-            <div role="tabpanel" class="tab-pane fade active in" id="who-we-are" aria-labelledby="who-we-are-tab">
-              <p>Raw denim you probably haven't heard of them jean shorts Austin:</p>
-              <ul><li>Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</li>
-              <li>Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.</li>
-              <li>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</li></ul>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="guidelines" aria-labelledby="guidelines-tab">
-              <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid:</p>
-              <ul><li>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR.</li>
-              <li>Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit.</li>
-              <li>sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</li></ul>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="contact" aria-labelledby="contact-tab">
-              <form class="form-horizontal">
-                <h3>Funding sought on behalf of:</h3>
-                <div class="form-group">
-                  <label for="inputName" class="col-sm-2 control-label">Organisation</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputName" placeholder="Your charity name">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress" class="col-sm-2 control-label">Address</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputAddress" placeholder="Charity address">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputWebsite" class="col-sm-2 control-label">Website</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputWebsite" placeholder="www.google.com">
-                  </div>
-                </div>
-                <h4>Purpose and structure of organisation:</h4>
-                <div class="row">
-                  <div class="col-sm-10 col-sm-offset-2">
-                    <textarea class="form-control" rows="3"></textarea>
-                  </div>
-                </div>
-                <hr />
-                <h3>Primary contact person:</h3>
-                <div class="form-group">
-                  <label for="inputPersonName" class="col-sm-2 control-label">Name</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPersonName" placeholder="Name of contact">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPersonRole" class="col-sm-2 control-label">Role</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPersonRole" placeholder="Role of contact">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPersonTelephone" class="col-sm-2 control-label">Telephone</label>
-                  <div class="col-sm-10">
-                    <input type="tel" class="form-control" id="inputPersonTelephone" placeholder="Landline of contact">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPersonMobile" class="col-sm-2 control-label">Mobile</label>
-                  <div class="col-sm-10">
-                    <input type="tel" class="form-control" id="inputPersonMobile" placeholder="Mobile number of contact">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPersonEmail" class="col-sm-2 control-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputPersonEmail" placeholder="Email of contact">
-                  </div>
-                </div>
-                <hr />
-                <h3>Information about the proposed project:</h3>
-                <h4>Overview (in 40 words or less please)</h4>
-                <div class="row">
-                  <div class="col-sm-10 col-sm-offset-2">
-                    <textarea class="form-control" rows="3" style="margin-bottom: 30px"></textarea>
-                  </div>
-                </div>
-                <!-- <textarea class="form-control" rows="3"  style="margin-bottom: 15px"></textarea> -->
-                <div class="form-group">
-                  <label for="projectTargetGroup" class="col-sm-2 control-label">Target group</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="projectTargetGroup" placeholder="Who is this project targeted at?">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="projectImpactsExpected" class="col-sm-2 control-label"> Impacts expected</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="projectImpactsExpected" placeholder="How will the outcome of the project be measured?">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="projectFundingAmount" class="col-sm-2 control-label"> Funding sought</label>
-                  <div class="col-sm-10">
-                    <input type="number" class="form-control" id="projectFundingAmount" placeholder="£">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="projectTimescape" class="col-sm-2 control-label">Timescale</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="projectTimescape" placeholder="Start date - finish date">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Send</button>
-                  </div>
-                </div>
-                <hr />
-              </form>
-            </div>
-          </div>
+          <p>As a very general guideline, the following are some of the areas in which our clients have recently expressed positive interest and in which we are actively interested pusuing promising new leads:</p>
+          <ul class="encouraged">
+            <li>Education </li>
+            <li>The Arts</li>
+            <li>Social Change</li>
+            <li>Women’s rights and Equality of opportunity</li>
+            <li>Capacity Building, Sustainable Development and Income generation through training and enterprise (no micro-finance / loan-based programs are being considered at this time).</li>
+          </ul>
+          <h3 class="funders-header funders-header-red">Contact us</h3>
+          <p style="clear: both">If you would like to find out whether we may be able to help you find funding for your project please in the first instance <a href="http://amanaska.org/contactform.php">fill out enquiry form</a>.</p>
+          <p style="margin-bottom: 60px;">We would appreciare you being as consice as possible at this stage. If we think we may be able to help you we will be in touch to ask for a full and detailed description of the proposal. We attempt to respond to all enquiries within 5 working days.</p>
         </div>
       </div>
     </div>
-
-    <nav class="navbar navbar-default navbar-bottom">
-      <div class="container-fluid">
-        <div class="col-md-3">
-          <p class="h4 text-center">Philanthropic Advisory Services</p>
-          <p class="h5 text-center"><a href="#pp1" class="navbar-link">Grant Management</a></p>
-          <p class="h5 text-center"><a href="#pp2" class="navbar-link">Monitoring and Reporting</a></p>
-          <p class="h5 text-center"><a href="#pp3" class="navbar-link">Anonymous Giving</a></p>
-        </div>
-        <div class="col-md-3">
-          <p class="h4 text-center">For Fundraisers</p>
-          <p class="h5 text-center"><a href="#pp1" class="navbar-link">Guidelines</a></p>
-          <p class="h5 text-center"><a href="#pp1" class="navbar-link">Initial Contact Form</a></p>
-        </div>
-        <div class="col-md-3">
-          <p class="h4 text-center">Our Work</p>
-          <p class="h5 text-center"><a href="#pp1" class="navbar-link">Recent Projects</p>
-          <p class="h5 text-center"><a href="#pp1" class="navbar-link">Contact</p>
-        </div>
-        <div class="col-md-3">
-          <a href="/index.html">
-            <img src="img/logo-transparent-110x96.png" class="img-responsive" />
-          </a>
-        </div>
+  </div>
+  <nav class="navbar navbar-default navbar-bottom">
+    <div class="container-fluid">
+      <div class="col-md-3">
+        <p class="h4 text-center">Philanthropic Advisory Services</p>
+        <p class="h5 text-center"><a href="#pp1" class="navbar-link">Grant Management</a></p>
+        <p class="h5 text-center"><a href="#pp2" class="navbar-link">Monitoring and Reporting</a></p>
+        <p class="h5 text-center"><a href="#pp3" class="navbar-link">Anonymous Giving</a></p>
       </div>
-    </nav>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+      <div class="col-md-3">
+        <p class="h4 text-center">For Fundraisers</p>
+        <p class="h5 text-center"><a href="#pp1" class="navbar-link">Guidelines</a></p>
+        <p class="h5 text-center"><a href="#pp1" class="navbar-link">Initial Contact Form</a></p>
+      </div>
+      <div class="col-md-3">
+        <p class="h4 text-center">Our Work</p>
+        <p class="h5 text-center"><a href="#pp1" class="navbar-link">Recent Projects</p>
+        <p class="h5 text-center"><a href="#pp1" class="navbar-link">Contact</p>
+      </div>
+      <div class="col-md-3">
+        <a href="/index.html">
+          <img src="img/logo-transparent-110x96.png" class="img-responsive" />
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
