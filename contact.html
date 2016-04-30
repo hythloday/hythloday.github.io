@@ -21,30 +21,30 @@
     <!-- page contents -->
     <div class="container-fluid">
       <div class="col-sm-8 col-sm-offset-2">
-      <form class="form-horizontal">
+      <form class="form-horizontal" action="http://amanaska.org/processform.php" method="post">
         <h3>Funding sought on behalf of:</h3>
         <div class="form-group">
           <label for="inputName" class="col-sm-2 control-label">Organisation</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputName" placeholder="Your charity name">
+            <input type="text" class="form-control" name="organisation" id="inputName" placeholder="Your charity name">
           </div>
         </div>
         <div class="form-group">
           <label for="inputAddress" class="col-sm-2 control-label">Address</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Charity address">
+            <input type="text" class="form-control" name="address" id="inputAddress" placeholder="Charity address">
           </div>
         </div>
         <div class="form-group">
           <label for="inputWebsite" class="col-sm-2 control-label">Website</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputWebsite" placeholder="www.google.com">
+            <input type="text" class="form-control" name="website" id="inputWebsite" placeholder="www.google.com">
           </div>
         </div>
         <h4>Purpose and structure of organisation:</h4>
         <div class="row">
           <div class="col-sm-10 col-sm-offset-2">
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea class="form-control" name="aboutorganisation" rows="3"></textarea>
           </div>
         </div>
         <hr />
@@ -52,31 +52,31 @@
         <div class="form-group">
           <label for="inputPersonName" class="col-sm-2 control-label">Name</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPersonName" placeholder="Name of contact">
+            <input type="text" class="form-control" name="name" id="inputPersonName" placeholder="Name of contact">
           </div>
         </div>
         <div class="form-group">
           <label for="inputPersonRole" class="col-sm-2 control-label">Role</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPersonRole" placeholder="Role of contact">
+            <input type="text" class="form-control" name="role" id="inputPersonRole" placeholder="Role of contact">
           </div>
         </div>
         <div class="form-group">
           <label for="inputPersonTelephone" class="col-sm-2 control-label">Telephone</label>
           <div class="col-sm-10">
-            <input type="tel" class="form-control" id="inputPersonTelephone" placeholder="Landline of contact">
+            <input type="tel" class="form-control" name="telephone" id="inputPersonTelephone" placeholder="Landline of contact">
           </div>
         </div>
         <div class="form-group">
           <label for="inputPersonMobile" class="col-sm-2 control-label">Mobile</label>
           <div class="col-sm-10">
-            <input type="tel" class="form-control" id="inputPersonMobile" placeholder="Mobile number of contact">
+            <input type="tel" class="form-control" name="mobile" id="inputPersonMobile" placeholder="Mobile number of contact">
           </div>
         </div>
         <div class="form-group">
           <label for="inputPersonEmail" class="col-sm-2 control-label">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputPersonEmail" placeholder="Email of contact">
+            <input type="email" class="form-control" name="email" id="inputPersonEmail" placeholder="Email of contact">
           </div>
         </div>
         <hr />
@@ -84,32 +84,32 @@
         <h4>Overview (in 40 words or less please)</h4>
         <div class="row">
           <div class="col-sm-10 col-sm-offset-2">
-            <textarea class="form-control" rows="3" style="margin-bottom: 30px"></textarea>
+            <textarea class="form-control" rows="3" name="projectoverview" style="margin-bottom: 30px"></textarea>
           </div>
         </div>
         <!-- <textarea class="form-control" rows="3"  style="margin-bottom: 15px"></textarea> -->
         <div class="form-group">
           <label for="projectTargetGroup" class="col-sm-2 control-label">Target group</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="projectTargetGroup" placeholder="Who is this project targeted at?">
+            <input type="text" class="form-control" name="targetgroup" id="projectTargetGroup" placeholder="Who is this project targeted at?">
           </div>
         </div>
         <div class="form-group">
           <label for="projectImpactsExpected" class="col-sm-2 control-label"> Impacts expected</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="projectImpactsExpected" placeholder="How will the outcome of the project be measured?">
+            <input type="text" class="form-control" name="impacts" id="projectImpactsExpected" placeholder="How will the outcome of the project be measured?">
           </div>
         </div>
         <div class="form-group">
           <label for="projectFundingAmount" class="col-sm-2 control-label"> Funding sought</label>
           <div class="col-sm-10">
-            <input type="number" class="form-control" id="projectFundingAmount" placeholder="£">
+            <input type="number" class="form-control" name="amount" id="projectFundingAmount" placeholder="£">
           </div>
         </div>
         <div class="form-group">
           <label for="projectTimescape" class="col-sm-2 control-label">Timescale</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="projectTimescape" placeholder="Start date - finish date">
+            <input type="text" class="form-control" name="timescale" id="projectTimescape" placeholder="Start date - finish date">
           </div>
         </div>
         <div class="form-group">
